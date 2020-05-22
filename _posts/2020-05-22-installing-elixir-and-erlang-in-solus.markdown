@@ -55,6 +55,7 @@ sudo eopkg install wxwidgets-devel \
                    mesalib-devel \
                    libglu-devel \
                    unixodbc-devel \
+                   openjdk-8 \
                    openjdk-8-devel
 ```
 
