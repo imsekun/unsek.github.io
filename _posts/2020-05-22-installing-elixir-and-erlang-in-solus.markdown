@@ -62,8 +62,8 @@ sudo eopkg install wxwidgets-devel \
 After installing the dependencies, you can now install and add Erlang to your system.
 
 ```bash
-# View all versions of Erlang
-asdf list erlang 
+# List all versions of Erlang
+asdf list all erlang 
 
 # Substitute <VERSION> with a version in the previous step
 asdf install erlang <VERSION>
@@ -91,7 +91,7 @@ source ~/.bashrc
 For Elixir things are much simpler since there are no extra dependencies you have to install.
 
 ```bash
-asdf list elixir # View all versions of Elixir
+asdf list all elixir # List all versions of Elixir
 asdf install elixir <VERSION> # Install a specific Elixir version
 asdf global elixir <VERSION> # Add the Elixir version to your global namespace
 ```
