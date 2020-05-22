@@ -20,30 +20,55 @@ Oh, also I've submitted a [PR](https://github.com/asdf-vm/asdf-erlang/pull/146) 
 ## Erlang
 
 Install the build tools
-`sudo eopkg it -c system.devel`
+
+```bash
+sudo eopkg it -c system.devel
+```
 
 For building wxWidgets
-`sudo eopkg install wxwidgets-devel mesalib-devel libglu-devel`
+
+```bash
+sudo eopkg install wxwidgets-devel \
+                    mesalib-devel 
+                    libglu-devel
+```
 
 For ODBC support
-`sudo eopkg install unixodbc-devel`
+
+```bash
+sudo eopkg install unixodbc-devel
+```
 
 For jinterface
-`sudo eopkg install openjdk-8-devel`
+
+```bash
+sudo eopkg install openjdk-8 \
+                   openjdk-8-devel
+```
 
 If you want to install all of the above
 
 ```bash
 sudo eopkg it -c system.devel
-sudo eopkg install wxwidgets-devel mesalib-devel libglu-devel unixodbc-devel openjdk-8-devel
+
+sudo eopkg install wxwidgets-devel \ 
+                   mesalib-devel \
+                   libglu-devel \
+                   unixodbc-devel \
+                   openjdk-8-devel
 ```
 
 After installing the dependencies, you can now install and add Erlang to your system.
 
 ```bash
-asdf list erlang # View all versions of Erlang
-asdf install erlang <VERSION> # Substitute <VERSION> with a version in the previous step
-asdf global erlang <VERSION> # Add the Erlang version to your global namespace
+# View all versions of Erlang
+asdf list erlang 
+
+# Substitute <VERSION> with a version in the previous step
+asdf install erlang <VERSION>
+
+# Add the Erlang version to your global namespace
+asdf global erlang <VERSION> 
 ```
 
 That's it! You can test it out with `erl`.
