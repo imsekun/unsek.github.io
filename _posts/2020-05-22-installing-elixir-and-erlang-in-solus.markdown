@@ -2,7 +2,7 @@
 layout: post
 title:  "Installing Elixir and Erlang in Solus"
 date:   2020-05-22 14:04:12 +0800
-categories: elixir erlang solus asdf-vm
+categories: guides
 ---
 
 # Why Solus
