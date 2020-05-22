@@ -29,7 +29,7 @@ For building wxWidgets
 
 ```bash
 sudo eopkg install wxwidgets-devel \
-                    mesalib-devel 
+                    mesalib-devel \
                     libglu-devel
 ```
 
