@@ -15,6 +15,8 @@ Until yesterday I've been using Ubuntu for a while and I sometimes switch to Sol
 
 Oh, also I've submitted a [PR](https://github.com/asdf-vm/asdf-erlang/pull/146) for `asdf-erlang` in case you're wondering why it's not in their README. Not sure when it'll be reviewed but hopefully it'll be merged soon.
 
+Edit: It has been merged!
+
 # Installation
 
 ## Erlang
