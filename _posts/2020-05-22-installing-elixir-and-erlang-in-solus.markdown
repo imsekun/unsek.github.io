@@ -64,10 +64,13 @@ sudo eopkg install wxwidgets-devel \
 After installing the dependencies, you can now install and add Erlang to your system.
 
 ```bash
-# List all versions of Erlang
-asdf list all erlang 
+# Install the Erlang plugin 
+asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
 
-# Substitute <VERSION> with a version in the previous step
+# List all versions of Erlang
+asdf list all erlang
+
+# Substitute <VERSION> with a version of your choice in the previous step
 asdf install erlang <VERSION>
 
 # Add the Erlang version to your global namespace
