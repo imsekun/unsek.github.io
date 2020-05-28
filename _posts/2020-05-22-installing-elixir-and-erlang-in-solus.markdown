@@ -32,7 +32,8 @@ For building wxWidgets
 ```bash
 sudo eopkg install wxwidgets-devel \
                     mesalib-devel \
-                    libglu-devel
+                    libglu-devel \
+                    fop
 ```
 
 For ODBC support
